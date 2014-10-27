@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79DB326B19FE31A80067BABF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DB326A19FE31A80067BABF /* main.m */; };
+		79DB326E19FE31A80067BABF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DB326D19FE31A80067BABF /* AppDelegate.m */; };
+		79DB327119FE31A80067BABF /* BaerchenImmobilien.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79DB326F19FE31A80067BABF /* BaerchenImmobilien.xcdatamodeld */; };
+		79DB327419FE31A80067BABF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DB327319FE31A80067BABF /* ViewController.m */; };
+		79DB327719FE31A80067BABF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79DB327519FE31A80067BABF /* Main.storyboard */; };
+		79DB327919FE31A80067BABF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79DB327819FE31A80067BABF /* Images.xcassets */; };
+		79DB327C19FE31A80067BABF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79DB327A19FE31A80067BABF /* LaunchScreen.xib */; };
+		79DB328819FE31A80067BABF /* BaerchenImmobilienTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DB328719FE31A80067BABF /* BaerchenImmobilienTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79DB328219FE31A80067BABF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79DB325D19FE31A80067BABF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79DB326419FE31A80067BABF;
+			remoteInfo = BaerchenImmobilien;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79DB326519FE31A80067BABF /* BaerchenImmobilien.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaerchenImmobilien.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79DB326919FE31A80067BABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79DB326A19FE31A80067BABF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79DB326C19FE31A80067BABF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79DB326D19FE31A80067BABF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79DB327019FE31A80067BABF /* BaerchenImmobilien.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BaerchenImmobilien.xcdatamodel; sourceTree = "<group>"; };
+		79DB327219FE31A80067BABF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		79DB327319FE31A80067BABF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		79DB327619FE31A80067BABF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79DB327819FE31A80067BABF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		79DB327B19FE31A80067BABF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		79DB328119FE31A80067BABF /* BaerchenImmobilienTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaerchenImmobilienTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79DB328619FE31A80067BABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79DB328719FE31A80067BABF /* BaerchenImmobilienTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaerchenImmobilienTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79DB326219FE31A80067BABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79DB327E19FE31A80067BABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79DB325C19FE31A80067BABF = {
+			isa = PBXGroup;
+			children = (
+				79DB326719FE31A80067BABF /* BaerchenImmobilien */,
+				79DB328419FE31A80067BABF /* BaerchenImmobilienTests */,
+				79DB326619FE31A80067BABF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79DB326619FE31A80067BABF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79DB326519FE31A80067BABF /* BaerchenImmobilien.app */,
+				79DB328119FE31A80067BABF /* BaerchenImmobilienTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79DB326719FE31A80067BABF /* BaerchenImmobilien */ = {
+			isa = PBXGroup;
+			children = (
+				79DB326C19FE31A80067BABF /* AppDelegate.h */,
+				79DB326D19FE31A80067BABF /* AppDelegate.m */,
+				79DB327219FE31A80067BABF /* ViewController.h */,
+				79DB327319FE31A80067BABF /* ViewController.m */,
+				79DB327519FE31A80067BABF /* Main.storyboard */,
+				79DB327819FE31A80067BABF /* Images.xcassets */,
+				79DB327A19FE31A80067BABF /* LaunchScreen.xib */,
+				79DB326F19FE31A80067BABF /* BaerchenImmobilien.xcdatamodeld */,
+				79DB326819FE31A80067BABF /* Supporting Files */,
+			);
+			path = BaerchenImmobilien;
+			sourceTree = "<group>";
+		};
+		79DB326819FE31A80067BABF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79DB326919FE31A80067BABF /* Info.plist */,
+				79DB326A19FE31A80067BABF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79DB328419FE31A80067BABF /* BaerchenImmobilienTests */ = {
+			isa = PBXGroup;
+			children = (
+				79DB328719FE31A80067BABF /* BaerchenImmobilienTests.m */,
+				79DB328519FE31A80067BABF /* Supporting Files */,
+			);
+			path = BaerchenImmobilienTests;
+			sourceTree = "<group>";
+		};
+		79DB328519FE31A80067BABF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79DB328619FE31A80067BABF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79DB326419FE31A80067BABF /* BaerchenImmobilien */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79DB328B19FE31A80067BABF /* Build configuration list for PBXNativeTarget "BaerchenImmobilien" */;
+			buildPhases = (
+				79DB326119FE31A80067BABF /* Sources */,
+				79DB326219FE31A80067BABF /* Frameworks */,
+				79DB326319FE31A80067BABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaerchenImmobilien;
+			productName = BaerchenImmobilien;
+			productReference = 79DB326519FE31A80067BABF /* BaerchenImmobilien.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79DB328019FE31A80067BABF /* BaerchenImmobilienTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79DB328E19FE31A80067BABF /* Build configuration list for PBXNativeTarget "BaerchenImmobilienTests" */;
+			buildPhases = (
+				79DB327D19FE31A80067BABF /* Sources */,
+				79DB327E19FE31A80067BABF /* Frameworks */,
+				79DB327F19FE31A80067BABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79DB328319FE31A80067BABF /* PBXTargetDependency */,
+			);
+			name = BaerchenImmobilienTests;
+			productName = BaerchenImmobilienTests;
+			productReference = 79DB328119FE31A80067BABF /* BaerchenImmobilienTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79DB325D19FE31A80067BABF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "App Chen";
+				TargetAttributes = {
+					79DB326419FE31A80067BABF = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					79DB328019FE31A80067BABF = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 79DB326419FE31A80067BABF;
+					};
+				};
+			};
+			buildConfigurationList = 79DB326019FE31A80067BABF /* Build configuration list for PBXProject "BaerchenImmobilien" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79DB325C19FE31A80067BABF;
+			productRefGroup = 79DB326619FE31A80067BABF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79DB326419FE31A80067BABF /* BaerchenImmobilien */,
+				79DB328019FE31A80067BABF /* BaerchenImmobilienTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79DB326319FE31A80067BABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79DB327719FE31A80067BABF /* Main.storyboard in Resources */,
+				79DB327C19FE31A80067BABF /* LaunchScreen.xib in Resources */,
+				79DB327919FE31A80067BABF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79DB327F19FE31A80067BABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79DB326119FE31A80067BABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79DB326E19FE31A80067BABF /* AppDelegate.m in Sources */,
+				79DB327119FE31A80067BABF /* BaerchenImmobilien.xcdatamodeld in Sources */,
+				79DB327419FE31A80067BABF /* ViewController.m in Sources */,
+				79DB326B19FE31A80067BABF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79DB327D19FE31A80067BABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79DB328819FE31A80067BABF /* BaerchenImmobilienTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79DB328319FE31A80067BABF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79DB326419FE31A80067BABF /* BaerchenImmobilien */;
+			targetProxy = 79DB328219FE31A80067BABF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79DB327519FE31A80067BABF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79DB327619FE31A80067BABF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79DB327A19FE31A80067BABF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79DB327B19FE31A80067BABF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79DB328919FE31A80067BABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		79DB328A19FE31A80067BABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79DB328C19FE31A80067BABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BaerchenImmobilien/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79DB328D19FE31A80067BABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BaerchenImmobilien/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		79DB328F19FE31A80067BABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BaerchenImmobilienTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaerchenImmobilien.app/BaerchenImmobilien";
+			};
+			name = Debug;
+		};
+		79DB329019FE31A80067BABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BaerchenImmobilienTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaerchenImmobilien.app/BaerchenImmobilien";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79DB326019FE31A80067BABF /* Build configuration list for PBXProject "BaerchenImmobilien" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79DB328919FE31A80067BABF /* Debug */,
+				79DB328A19FE31A80067BABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79DB328B19FE31A80067BABF /* Build configuration list for PBXNativeTarget "BaerchenImmobilien" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79DB328C19FE31A80067BABF /* Debug */,
+				79DB328D19FE31A80067BABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79DB328E19FE31A80067BABF /* Build configuration list for PBXNativeTarget "BaerchenImmobilienTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79DB328F19FE31A80067BABF /* Debug */,
+				79DB329019FE31A80067BABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		79DB326F19FE31A80067BABF /* BaerchenImmobilien.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				79DB327019FE31A80067BABF /* BaerchenImmobilien.xcdatamodel */,
+			);
+			currentVersion = 79DB327019FE31A80067BABF /* BaerchenImmobilien.xcdatamodel */;
+			path = BaerchenImmobilien.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 79DB325D19FE31A80067BABF /* Project object */;
+}
