@@ -7,6 +7,9 @@
 //
 
 #import "AddTopicViewController.h"
+#import <CoreData/CoreData.h>
+#import "Topic.h"
+#import "AppDelegate.h"
 
 @interface AddTopicViewController ()
 
@@ -17,6 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    NSLog(@"%@",NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0]);
 }
 
 - (void)didReceiveMemoryWarning {
@@ -34,4 +38,45 @@
 }
 */
 
+- (IBAction)cancelButtonPressed:(id)sender {
+    
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
+- (IBAction)saveButtonPressed:(id)sender {
+//    NSLog(@"%@",NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0]);
+//    
+//    UIApplication *app = [UIApplication sharedApplication];
+//    AppDelegate * delegate = app.delegate;
+//    NSManagedObjectContext * context = delegate.managedObjectContext;
+//    Topic *topic = [NSEntityDescription insertNewObjectForEntityForName:@"Topic" inManagedObjectContext:context];
+//    topic.title = self.txtTitle.text;
+//    topic.author = @"Kevin Chan";
+//    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+//    [dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss zzz"];
+//    topic.date = [dateFormatter stringFromDate:[NSDate date ]];
+//    topic.city = @"Stuttgart";
+//    topic.isForRent = [[NSNumber alloc] initWithInt:1];
+//    
+//    
+//    NSError *error = nil;
+//    [context save:&error];
+//    if (error != nil) {
+//        NSLog(@"Failed !! %@",error);
+//    } else {
+//        NSLog(@"Successful!!");
+//        [self.navigationController popViewControllerAnimated:YES];
+    
+//    }
+    NSDictionary *topicInfo = @{
+                                @"title":self.txtTitle.text,
+                                @"author":self.txtAuthor.text,
+                                @"date":self.txtDate.text,
+                                @"city":self.txtCity.text,
+                                @"content":self.content.text
+                                };
+    [self.delegate addTopic:topicInfo];
+    [self.navigationController popViewControllerAnimated:YES];
+    
+}
 @end

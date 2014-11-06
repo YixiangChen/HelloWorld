@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol TopicManagementDelegat <NSObject>
 
+@protocol TopicManagementDelegat <NSObject>
+@optional
+-(void) addTopic:(NSDictionary *)topic ;
+-(void) updateTopic:(NSDictionary *)topic atIndex:(int) index;
+-(void) showSelectedTopic:(NSDictionary *) topic atSelectedIndex:(int) index;
 @end

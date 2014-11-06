@@ -7,7 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+#import <UIKit/UIKit.h>
+#import "Topic.h"
 
 @interface TopicManager : NSObject
+@property (strong, nonatomic) NSManagedObjectContext *context;
+@property (strong,nonatomic) NSMutableArray *topics;
+-(void) fetchAllTopics;
 
+-(void)addTopic: (NSDictionary *) topic;
+-(void)deleteTopic:(NSDictionary *) topic;
+-(void)updateTopic;
+-(void)selectTopic:(NSDictionary *) topic atIndex:(int) index;
 @end
