@@ -7,20 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		797CB3D919FF792300CA3BB0 /* Topic.m in Sources */ = {isa = PBXBuildFile; fileRef = 797CB3D819FF792300CA3BB0 /* Topic.m */; };
-		79D39B4F19FFFC6500EA2975 /* sss.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79D39B4E19FFFC6500EA2975 /* sss.jpg */; };
-		79D39B551A00BFF100EA2975 /* TopicDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D39B541A00BFF100EA2975 /* TopicDetailViewController.m */; };
 		79DB326B19FE31A80067BABF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DB326A19FE31A80067BABF /* main.m */; };
 		79DB326E19FE31A80067BABF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DB326D19FE31A80067BABF /* AppDelegate.m */; };
 		79DB327119FE31A80067BABF /* BaerchenImmobilien.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79DB326F19FE31A80067BABF /* BaerchenImmobilien.xcdatamodeld */; };
+		79DB327419FE31A80067BABF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DB327319FE31A80067BABF /* ViewController.m */; };
 		79DB327719FE31A80067BABF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79DB327519FE31A80067BABF /* Main.storyboard */; };
 		79DB327919FE31A80067BABF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79DB327819FE31A80067BABF /* Images.xcassets */; };
 		79DB327C19FE31A80067BABF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79DB327A19FE31A80067BABF /* LaunchScreen.xib */; };
 		79DB328819FE31A80067BABF /* BaerchenImmobilienTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DB328719FE31A80067BABF /* BaerchenImmobilienTests.m */; };
-		79DB329819FE33CC0067BABF /* TopicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DB329719FE33CC0067BABF /* TopicTableViewController.m */; };
-		79DB329B19FE34360067BABF /* TopicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DB329A19FE34360067BABF /* TopicTableViewCell.m */; };
-		79DB329F19FE35020067BABF /* TopicManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DB329E19FE35020067BABF /* TopicManager.m */; };
-		79DB32A219FE39150067BABF /* AddTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DB32A119FE39150067BABF /* AddTopicViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,32 +28,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		797CB3D719FF792300CA3BB0 /* Topic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Topic.h; sourceTree = "<group>"; };
-		797CB3D819FF792300CA3BB0 /* Topic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Topic.m; sourceTree = "<group>"; };
-		797CB3DB19FF877800CA3BB0 /* TopicManagementDelegat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicManagementDelegat.h; sourceTree = "<group>"; };
-		79D39B4E19FFFC6500EA2975 /* sss.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sss.jpg; path = ../../../Desktop/sss.jpg; sourceTree = "<group>"; };
-		79D39B531A00BFF100EA2975 /* TopicDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicDetailViewController.h; sourceTree = "<group>"; };
-		79D39B541A00BFF100EA2975 /* TopicDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicDetailViewController.m; sourceTree = "<group>"; };
 		79DB326519FE31A80067BABF /* BaerchenImmobilien.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaerchenImmobilien.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79DB326919FE31A80067BABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79DB326A19FE31A80067BABF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		79DB326C19FE31A80067BABF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		79DB326D19FE31A80067BABF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		79DB327019FE31A80067BABF /* BaerchenImmobilien.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BaerchenImmobilien.xcdatamodel; sourceTree = "<group>"; };
+		79DB327219FE31A80067BABF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		79DB327319FE31A80067BABF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		79DB327619FE31A80067BABF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79DB327819FE31A80067BABF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		79DB327B19FE31A80067BABF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		79DB328119FE31A80067BABF /* BaerchenImmobilienTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaerchenImmobilienTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79DB328619FE31A80067BABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79DB328719FE31A80067BABF /* BaerchenImmobilienTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaerchenImmobilienTests.m; sourceTree = "<group>"; };
-		79DB329619FE33CC0067BABF /* TopicTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicTableViewController.h; sourceTree = "<group>"; };
-		79DB329719FE33CC0067BABF /* TopicTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicTableViewController.m; sourceTree = "<group>"; };
-		79DB329919FE34360067BABF /* TopicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicTableViewCell.h; sourceTree = "<group>"; };
-		79DB329A19FE34360067BABF /* TopicTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicTableViewCell.m; sourceTree = "<group>"; };
-		79DB329D19FE35020067BABF /* TopicManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicManager.h; sourceTree = "<group>"; };
-		79DB329E19FE35020067BABF /* TopicManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicManager.m; sourceTree = "<group>"; };
-		79DB32A019FE39150067BABF /* AddTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTopicViewController.h; sourceTree = "<group>"; };
-		79DB32A119FE39150067BABF /* AddTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTopicViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,14 +62,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		797CB3DA19FF872B00CA3BB0 /* Delegation */ = {
-			isa = PBXGroup;
-			children = (
-				797CB3DB19FF877800CA3BB0 /* TopicManagementDelegat.h */,
-			);
-			name = Delegation;
-			sourceTree = "<group>";
-		};
 		79DB325C19FE31A80067BABF = {
 			isa = PBXGroup;
 			children = (
@@ -109,13 +83,10 @@
 		79DB326719FE31A80067BABF /* BaerchenImmobilien */ = {
 			isa = PBXGroup;
 			children = (
-				79D39B4E19FFFC6500EA2975 /* sss.jpg */,
-				797CB3DA19FF872B00CA3BB0 /* Delegation */,
-				79DB329C19FE34D20067BABF /* DataManager */,
-				79DB329519FE337A0067BABF /* ViewControllers */,
-				79DB329119FE33120067BABF /* Models */,
 				79DB326C19FE31A80067BABF /* AppDelegate.h */,
 				79DB326D19FE31A80067BABF /* AppDelegate.m */,
+				79DB327219FE31A80067BABF /* ViewController.h */,
+				79DB327319FE31A80067BABF /* ViewController.m */,
 				79DB327519FE31A80067BABF /* Main.storyboard */,
 				79DB327819FE31A80067BABF /* Images.xcassets */,
 				79DB327A19FE31A80067BABF /* LaunchScreen.xib */,
@@ -149,39 +120,6 @@
 				79DB328619FE31A80067BABF /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		79DB329119FE33120067BABF /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				797CB3D719FF792300CA3BB0 /* Topic.h */,
-				797CB3D819FF792300CA3BB0 /* Topic.m */,
-				79DB329919FE34360067BABF /* TopicTableViewCell.h */,
-				79DB329A19FE34360067BABF /* TopicTableViewCell.m */,
-			);
-			name = Models;
-			sourceTree = "<group>";
-		};
-		79DB329519FE337A0067BABF /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				79DB329619FE33CC0067BABF /* TopicTableViewController.h */,
-				79DB329719FE33CC0067BABF /* TopicTableViewController.m */,
-				79DB32A019FE39150067BABF /* AddTopicViewController.h */,
-				79DB32A119FE39150067BABF /* AddTopicViewController.m */,
-				79D39B531A00BFF100EA2975 /* TopicDetailViewController.h */,
-				79D39B541A00BFF100EA2975 /* TopicDetailViewController.m */,
-			);
-			name = ViewControllers;
-			sourceTree = "<group>";
-		};
-		79DB329C19FE34D20067BABF /* DataManager */ = {
-			isa = PBXGroup;
-			children = (
-				79DB329D19FE35020067BABF /* TopicManager.h */,
-				79DB329E19FE35020067BABF /* TopicManager.m */,
-			);
-			name = DataManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,7 +205,6 @@
 				79DB327719FE31A80067BABF /* Main.storyboard in Resources */,
 				79DB327C19FE31A80067BABF /* LaunchScreen.xib in Resources */,
 				79DB327919FE31A80067BABF /* Images.xcassets in Resources */,
-				79D39B4F19FFFC6500EA2975 /* sss.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,15 +222,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79DB32A219FE39150067BABF /* AddTopicViewController.m in Sources */,
-				797CB3D919FF792300CA3BB0 /* Topic.m in Sources */,
-				79DB329B19FE34360067BABF /* TopicTableViewCell.m in Sources */,
 				79DB326E19FE31A80067BABF /* AppDelegate.m in Sources */,
 				79DB327119FE31A80067BABF /* BaerchenImmobilien.xcdatamodeld in Sources */,
-				79DB329F19FE35020067BABF /* TopicManager.m in Sources */,
-				79D39B551A00BFF100EA2975 /* TopicDetailViewController.m in Sources */,
+				79DB327419FE31A80067BABF /* ViewController.m in Sources */,
 				79DB326B19FE31A80067BABF /* main.m in Sources */,
-				79DB329819FE33CC0067BABF /* TopicTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,7 +416,6 @@
 				79DB328D19FE31A80067BABF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		79DB328E19FE31A80067BABF /* Build configuration list for PBXNativeTarget "BaerchenImmobilienTests" */ = {
 			isa = XCConfigurationList;
@@ -493,7 +424,6 @@
 				79DB329019FE31A80067BABF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

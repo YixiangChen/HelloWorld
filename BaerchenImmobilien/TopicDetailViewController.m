@@ -17,13 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.lblTtitle.text = self.topic.title;
-    self.lblNumberOfLikes.text = @"100";
-    self.lblDate.text = self.topic.date;
-    self.lblContent.text = self.topic.content;
-    NSLog(@"%@",NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0]);
-    NSLog(@"%@",self.topic.content);
-    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -41,9 +34,4 @@
 }
 */
 
-- (IBAction)contactButtonPressed:(id)sender {
-}
-
-- (IBAction)likeButtonPressed:(id)sender {
-}
 @end

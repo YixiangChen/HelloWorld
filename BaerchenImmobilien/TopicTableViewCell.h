@@ -9,8 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface TopicTableViewCell : UITableViewCell
-@property (strong, nonatomic) IBOutlet UILabel *lblTitle;
-@property (strong, nonatomic) IBOutlet UILabel *lblAuthor;
-@property (strong, nonatomic) IBOutlet UILabel *lblDate;
 
 @end
