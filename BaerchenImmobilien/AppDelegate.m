@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+//This is our new project!
+#import "MainViewController.h"
 @interface AppDelegate ()
 
 @end
